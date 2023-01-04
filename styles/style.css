@@ -30,11 +30,12 @@
   padding: 18px 24px;
 }
 /* header banner background */
-header{
-    background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, top left;
+header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
 /* Header And Navbar section */
 .nav-title {
@@ -83,4 +84,35 @@ nav ul {
   color: #757575;
   /* line-height: 30px; */
   margin: 0 0 30px 0;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-description {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* About Table design */
+thead th {
+    padding-right: 50px;
+    margin: 0 auto;
+    max-width: 1140px;
 }
