@@ -187,7 +187,7 @@ main {
 .resume-content {
   display: flex;
   gap: 70px;
-  margin-top: 130px;
+  margin-top: 110px;
 }
 .resume-title {
   font-weight: 700;
@@ -213,3 +213,5 @@ main {
   font-size: 16px;
   margin-bottom: 30px;
 }
+
+
