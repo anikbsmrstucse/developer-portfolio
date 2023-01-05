@@ -95,12 +95,12 @@ main {
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
+  text-align: center;
 }
 .about-title {
   font-weight: 700;
   font-size: 35px;
   color: #181818;
-  text-align: center;
   margin-bottom: 30px;
 }
 .about-description {
@@ -110,9 +110,66 @@ main {
   margin-bottom: 30px;
 }
 
-/* About Table design */
-thead th {
-    padding-right: 50px;
-    margin: 0 auto;
-    max-width: 1140px;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+}
+.info-title {
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+
+.what-i-do {
+  margin-top: 130px;
+  text-align: center;
+}
+.what-i-do-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  /* text-align: center; */
+}
+.what-i-do-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-top: 30px;
+  /* text-align: center; */
+}
+/* Skill Section */
+.skill-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skill {
+  margin-top: 50px;
+  text-align: left;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill img {
+  height: 44px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 30px;
+}
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-top: 20px;
 }
