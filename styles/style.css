@@ -149,6 +149,7 @@ main {
 .skill-container {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .skill {
   margin-top: 50px;
@@ -172,4 +173,43 @@ main {
   font-size: 16px;
   color: #757575;
   margin-top: 20px;
+}
+
+/* Resume Section */
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.resume-content {
+  display: flex;
+  gap: 70px;
+  margin-top: 130px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 30px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 30px;
+}
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
