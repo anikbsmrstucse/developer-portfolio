@@ -46,7 +46,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav li {
   list-style: none;
@@ -115,8 +115,8 @@ main {
   justify-content: space-around;
 }
 
-.about-info {
-}
+/* .about-info {
+} */
 .info-title {
   font-weight: 400;
   font-size: 20px;
